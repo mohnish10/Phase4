@@ -1,0 +1,81 @@
+package com.mohnish.sportyshoes;
+
+import java.sql.SQLException;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Service;
+
+import lombok.NoArgsConstructor;
+
+@Service
+@NoArgsConstructor
+public class OrderService 
+{
+
+	
+	private OrderRepo repo;
+	
+	@Autowired
+	JdbcTemplate jdbc;
+	
+	
+	public OrderService(OrderRepo repo)
+	{
+		
+		super();
+		this.repo = repo;
+	}
+	
+	
+	public List<Orders> getAllOrdersByDatesASC() throws SQLException
+	{
+		
+		return this.repo.getAllOrderByDatesASC();
+	}
+	
+	
+	public List<Orders> getAllOrdersByDatesDESC() throws SQLException
+	{
+		
+		return this.repo.getAllOrderByDatesDESC();
+	}
+	
+	
+	public List<Orders> getAllOrdersByIdsASC() throws SQLException
+	{
+		
+		return this.repo.getAllOrderByIdsASC();
+	}
+	
+	
+	public List<Orders> getAllOrdersByIdsDESC() throws SQLException
+	{
+		
+		return this.repo.getAllOrderByIdsDESC();
+		
+	}
+	
+	
+	public List<Orders> getOrdersByShoeId(Integer shoeId) throws SQLException
+	{
+		
+		return this.repo.getAllOrdersByShoeId(shoeId);
+	}
+	
+	
+	public List<Orders> getOrdersByUserId(Integer userId) throws SQLException
+	{
+		
+		return this.repo.getAllOrdersByUserId(userId);
+	}
+	
+	
+	public Orders createOrder(Orders order)
+	{
+		
+		return repo.save(order);
+	}
+
+}

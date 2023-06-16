@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;FullStackJavaDeveloperReadinessCourse&apos;&#x0D;&#x0A;- Original project: &apos;FullStackJavaDeveloperReadinessCourse&apos;&#x0D;&#x0A;- Original element: &apos;FullStackJavaDeveloperReadinessCourse/src/main/java/com.mohnish.FullStackJavaDeveloperReadinessCourse.service.impl&apos;" description="Delete element" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.mohnish.FullStackJavaDeveloperReadinessCourse.service.impl" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1680006427216" subPackages="false" version="1.0"/>
+</session>

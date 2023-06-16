@@ -1,0 +1,5 @@
+package com.mohnish.sportyshoes;
+
+public class APIResponse<T> {
+
+}

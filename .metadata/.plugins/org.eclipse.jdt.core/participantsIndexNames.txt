@@ -1,0 +1,13 @@
+INDEX VERSION 1.131
+D:\Phase4\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\86461503.index
+\JSTLTags\src\main\java
+D:\Phase4\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1201550198.index
+\SpringMVCSecurityMavenRolesApp\src\main\java
+D:\Phase4\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1930673197.index
+\SpringMVCSecurityMavenRolesApp\src\main\java
+D:\Phase4\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\412481468.index
+\JstlTags\src\main\java
+D:\Phase4\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3375763841.index
+\SpringMVCSecurityMavenRolesApp\src\main\java
+D:\Phase4\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\549655074.index
+\IntroToJsp\src\main\java

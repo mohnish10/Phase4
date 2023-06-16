@@ -1,0 +1,42 @@
+package com.mohnish.sportyshoes;
+
+import java.sql.SQLException;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Service;
+
+import lombok.NoArgsConstructor;
+
+@Service
+@NoArgsConstructor
+public class OrderService 
+{
+
+	@Autowired
+	private OrderRepo repo;
+	
+
+	public OrderService(OrderRepo repo)
+	{
+		
+		super();
+		this.repo = repo;
+	}
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+}

@@ -1,0 +1,21 @@
+package com.mohnish.sportyshoes;
+
+import java.sql.SQLException;
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface OrderRepo
+{
+
+	List<Orders> getAllOrderByDatesASC() throws SQLException;
+	List<Orders> getAllOrderByDatesDESC() throws SQLException;
+	List<Orders> getAllOrderByIdsASC() throws SQLException;
+	List<Orders> getAllOrderByIdsDESC() throws SQLException;
+	List<Orders> getAllOrdersByShoeId(int shoeId);
+	List<Orders> getAllOrdersByUserId(int userId);
+	Orders save(Orders order);
+
+}
