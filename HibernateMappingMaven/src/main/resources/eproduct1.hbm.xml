@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+
+<hibernate-mapping package="com.mohnish">
+<class name="EProduct1" table="eproduct1">
+<id name="id" type="long" column="ID">
+<generator class="identity"></generator>
+</id>
+
+
+<property name="name" type="string" column="NAME"></property>
+<property name="price" type="big_decimal" column="PRICE"></property>
+<property name="dateAdded" type="timestamp" column="DATE_ADDED"></property>
+
+
+<list name="colors" cascade="all">
+<key column="product_id"></key>
+<list-index column="idx"></list-index>
+<one-to-many class="com.mohnish.Color"></one-to-many>
+</list>
+
+
+<bag name="screensizes" cascade="all">
+<key column="product_id"></key>
+<one-to-many class="com.mohnish.ScreenSizes"></one-to-many>
+</bag>
+
+
+<set name="os" cascade="all">
+<key column="product_id"></key>
+<one-to-many class="OS"></one-to-many>
+</set>
+
+
+<map name="finance" cascade="all">
+<key column="product_id"></key>
+<index column="ftype" type="string"></index>
+<one-to-many class="com.mohnish.Finance"></one-to-many>
+
+
+	
+
+
+
+</map>   
+
+
+
+
+
+
+
+
+
+
+
+
+</class>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</hibernate-mapping>

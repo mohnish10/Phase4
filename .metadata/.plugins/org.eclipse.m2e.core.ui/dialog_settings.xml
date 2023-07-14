@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\Phase4\ChangePassword"/>
 			<item value="D:\Phase4\SpringSecurityRoleBasedAccess1"/>
 			<item value="D:\Phase4\SpringBootSecurity"/>
 			<item value="D:\Phase4\spring-boot-security-rbac"/>
@@ -16,7 +17,6 @@
 			<item value="D:\Phase4\demo"/>
 			<item value="D:\Phase4\RestfulWebServices"/>
 			<item value="D:\Phase4\springboot-jdbc-crud-example"/>
-			<item value="D:\Phase4\RegistrationAndLogin"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -33,6 +33,9 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Phase4\ManyToManyMapping\src\main\resources"/>
+			<item value="D:\Phase4\HibernateDemo"/>
+			<item value="D:\Phase4\JstlTags\src\main\webapp\sqlsetdatasource.jsp"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -56,13 +59,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.mohnish.JstlTags"/>
+			<item value="com.mohnish"/>
 		</list>
 		<list key="groupId">
 			<item value="com.mohnish"/>
 		</list>
 		<list key="artifactId">
-			<item value="JstlTags"/>
+			<item value="ComponentMapping"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

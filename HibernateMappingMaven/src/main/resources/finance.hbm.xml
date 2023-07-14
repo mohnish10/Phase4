@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+
+<hibernate-mapping package="com.mohnish">
+<class name="Finance" table="finance">
+<id name="financeId" type="long" column="ID">
+<generator class="identity"></generator>
+</id> 
+
+<property name="name" type="string" column="NAME"></property>
+<property name="ftype" type="string" column="FTYPE"></property>
+
+
+
+
+</class>
+
+
+
+
+
+
+
+</hibernate-mapping>

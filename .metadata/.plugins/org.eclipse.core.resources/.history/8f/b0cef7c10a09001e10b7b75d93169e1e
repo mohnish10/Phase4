@@ -1,9 +1,0 @@
-package com.mohnish.sportyshoes;
-
-public class APIResponse<T> 
-{
-	
-	int recordCount;
-	T response;
-
-}

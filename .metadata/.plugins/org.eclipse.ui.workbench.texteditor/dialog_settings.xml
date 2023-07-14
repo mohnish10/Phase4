@@ -8,6 +8,8 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="tomcat"/>
+			<item value="web"/>
 			<item value="isActive"/>
 			<item value="security"/>
 			<item value="lombok"/>
